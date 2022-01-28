@@ -7,6 +7,7 @@ const height = window.innerHeight;
 canvas.width = width;
 canvas.height = height;
 
+//scope
 let graph,A,B,C,mAB,mAC,mBC,ab,ac,bc,aMbc,bMac,cMab,S;
 
 graph = new GraphBackGround();
@@ -82,5 +83,3 @@ function animate(){
 
     S.draw();
 }
-
-
